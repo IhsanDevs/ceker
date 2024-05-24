@@ -106,7 +106,7 @@ def check_cpanel(server, username, password, command_to_added_in_cpanel):
         try:
             response = requests.post(url, data=body, verify=False, timeout=5)
         except requests.exceptions.ConnectionError:
-            # print(colored(f"{server} is unavailable", "red"), end="\n")
+            print(colored(f"{server} is unavailable", "red"), end="\n")
             return
 
         response_json = json.loads(response.text)
@@ -123,7 +123,7 @@ def check_cpanel(server, username, password, command_to_added_in_cpanel):
 
             return True
         else:
-            # print(colored(f"{server} is unavailable", "red"), end="\n")
+            print(colored(f"{server} is unavailable", "red"), end="\n")
             return
     except Exception:
         return
