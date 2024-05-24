@@ -1,8 +1,8 @@
 # CEKER (Cpanel chEcKER)
 
-Tool untuk mengecek ketersediaan server cPanel.
+![CEKER](./CEKER.png)
 
-> Request tools lainnya?\* [chat saya aja](https://t.me/IhsanDevs)
+> _Request tools lainnya?_ [chat saya aja](https://t.me/IhsanDevs)
 
 ## Daftar Isi
 
